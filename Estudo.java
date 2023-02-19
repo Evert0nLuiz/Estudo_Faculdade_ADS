@@ -5,4 +5,3 @@ class Test
         System.ou.println("Hello world");
     }
 }
-e
