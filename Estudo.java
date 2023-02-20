@@ -1,7 +1,27 @@
+import java.util.Scanner;
 public class Estudo
+
 {
-    public static void  main(String[] args)
+    public static void main(String[] args)
     {
-        System.Out.println("Goodbye, thank you");
+        System.Out.println("Hi!");
+    }
+    public static void main(String[] args)
+    {
+        Scanner scn = New Scanner(System.in);
+
+        int n1;
+        int n2;
+        int res;
+
+        System.out.print("Write a number for a sum: ");
+        n1 = scn.nextInt();
+
+        System.out.print("Write a new number: ");
+        n2 = scn.nextInt();
+        
+        res = n1 + n2;
+        System.out.printf("This is the result: %d\n", res)
+
     }
 }
