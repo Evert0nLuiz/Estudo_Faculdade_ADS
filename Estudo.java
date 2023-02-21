@@ -1,10 +1,25 @@
 import java.util.Scanner;
-public class Estudo
+public class Test
 
 {
-
     public static void main(String[] args)
     {
-        System.ou.println("Hello world");
+        System.out.println("Hi!");
+
+        Scanner scn = new Scanner(System.in);
+
+        int n1;
+        int n2;
+        int res;
+
+        System.out.print("Write a number for a sum: ");
+        n1 = scn.nextInt();
+
+        System.out.print("Write a new number: ");
+        n2 = scn.nextInt();
+        
+        res = n1 + n2;
+        System.out.printf("This is the result: %d\n", res);
+
     }
 }
