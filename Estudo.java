@@ -4,11 +4,11 @@ public class Test
 {
     public static void main(String[] args)
     {
-        Scanner scn = new Scanner(System.in);
-
         int n1;
         int n2;
         int res;
+
+        Scanner scn = new Scanner(System.in);
 
         System.out.println("Hi!");
 
@@ -19,7 +19,7 @@ public class Test
         n2 = scn.nextInt();
         
         res = n1 + n2;
-        
+
         System.out.printf("This is the result: %d\n", res);
 
     }
