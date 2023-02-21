@@ -8,9 +8,9 @@ public class Test
         int res;
         Scanner scn = new Scanner(System.in);
 
-
         System.out.print("Write a number for a sum: ");
         n1 = scn.nextInt();
+        
         System.out.print("Write a new number: ");
         n2 = scn.nextInt();
         
