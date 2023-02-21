@@ -4,13 +4,13 @@ public class Test
 {
     public static void main(String[] args)
     {
-        System.out.println("Hi!");
-
         Scanner scn = new Scanner(System.in);
 
         int n1;
         int n2;
         int res;
+
+        System.out.println("Hi!");
 
         System.out.print("Write a number for a sum: ");
         n1 = scn.nextInt();
@@ -19,6 +19,7 @@ public class Test
         n2 = scn.nextInt();
         
         res = n1 + n2;
+        
         System.out.printf("This is the result: %d\n", res);
 
     }
