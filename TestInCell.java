@@ -1,8 +1,6 @@
 
-
- // Compiler version JDK 11.0.2
 import java.util.Scanner;
-public class Test
+public class TestInCell
  {
    public static void main(String args[])
    { 
