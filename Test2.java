@@ -6,7 +6,7 @@ public class Test2
         Scanner scn = new Scanner(System.in);
         int[] valores ;
         valores = new int [5];
-        int valor;
+        
         int maior = 0;
         int menor = 0;
 
