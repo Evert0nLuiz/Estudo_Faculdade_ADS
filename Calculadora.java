@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.auladia21_03;
 
-import java.util.Scanner;
+import java.util.*;
 
-/**
- *
- * @author everton.lcsousa
- */
+
 public class NewClass {
     public static void main(String [] args)
     { 
