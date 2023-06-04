@@ -1,4 +1,4 @@
-public class Exericio17 {
+public class Exercicio17 {
     public static void main(String[] args) {
         double [] vetor = {-1,2.6,3,4.5,-6};
         double multiplicadorDoVetor = 3.8;
