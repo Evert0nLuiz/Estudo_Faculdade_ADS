@@ -27,7 +27,6 @@ public class Exercicio32 {
                     guardaValoresDaColuna[indexIndependente] += matriz[i][j];
                     indexIndependente ++;
 
-
                 }
 
             }
